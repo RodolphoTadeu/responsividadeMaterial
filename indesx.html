@@ -11,7 +11,22 @@
 </head>
 <body>
   <div id="pagina">
-  <img src="imagens/images/mulherdancando.jpg"   alt="imagem">
+  <nav>
+    <img src="imagens/images/menuIcon.svg" alt="" id="menu" onclick="mostrar()">
+<ul id="menuOpcoes">
+    <li>Opção</li>
+    <li>Opção</li>
+    <li>Opção</li>
+    <li>Opção</li>
+    
+</ul>
+</nav>
+
+  <!--banner pra baixo-->
+  <picture id="banner">
+      <source media="(max-width: 600px)" srcset="imagens/images/mulherdancandoMenor.jpg" class="banner">
+      <img src="imagens/images/mulherdancando.jpg" alt="" class="banner">
+  </picture>
 
   <h1> Teste</h1>
   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur eaque ipsa fugit laboriosam error. Illo aliquid libero laborum distinctio esse, repudiandae, ratione facere rem laudantium ipsam officia voluptatum, aspernatur asperiores.
@@ -23,6 +38,13 @@
   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero modi optio ratione iure molestias deserunt non accusamus? Fugiat, odio? Voluptatum velit soluta, exercitationem eligendi autem aliquid aliquam nostrum laudantium sunt?</p>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ratione iste? Vitae optio officia cupiditate quas illo rerum reprehenderit autem voluptates recusandae nemo, fuga fugit eos velit nostrum molestiae itaque!</p>
 
-</div>  
+</div> 
+<script>
+    function mostrar (){
+        if (menuOpcoes.style.display == "block")
+        {menuOpcoes.style.display = "bloclk"} else 
+        {menuOpcoes.style.display= "none"}
+    }
+</script> 
 </body>
 </html>
