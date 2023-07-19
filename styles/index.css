@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: blueviolet;
+}
+
+#pagina{
+    min-width: 360px;
+    max-width: 800px;
+    height: auto;
+    margin: 0% auto;
+    padding: 20px ;
+background-color: lightgray;
+}
+
+img{
+    width: 100%;
+}
+
+/*@media screen and  (min-width: 600px ){
+    #pagina{
+        background-color: lightsalmon;
+    }
+}
+
+@media print{
+    *{color: blue
+    }
+}
+
+
+@media screen and  (min-width: 300px )and  (max-width: 599px ) {
+    #pagina{
+        background-color: lightslategray;
+        color: aliceblue;
+    }
+}
